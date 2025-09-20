@@ -1,0 +1,78 @@
+/* ==========================
+   Global Styles
+========================== */
+body {
+  font-family: Arial, sans-serif;
+  background: #fce4ec; /* light pink background */
+  transition: all 0.5s ease;
+}
+
+/* ==========================
+   Text Styling
+========================== */
+.name1,
+.date1,
+.anni {
+  font-size: 20px;
+  color: rgb(5, 0, 0);
+  font-weight: bold;
+}
+
+.para {
+  font-size: 15px;
+  color: rgb(5, 0, 0);
+  font-weight: 500;
+}
+
+/* ==========================
+   Count Up Timer
+========================== */
+.countup {
+  display: flex;
+  gap: 14px;
+  margin: 10px 0 22px;
+}
+
+.countup div {
+  background: rgba(33, 25, 25, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 20px 30px;
+  border-radius: 14px;
+  text-align: center;
+  min-width: 72px;
+  box-shadow: var(--shadow);
+}
+
+.countup span {
+  font-size: 25px;
+  font-weight: 800;
+  display: block;
+}
+
+.countup small {
+  font-size: 14px;
+  opacity: 0.75;
+}
+
+/* ==========================
+   Instagram Links
+========================== */
+.insta-link {
+  font-size: 15px;
+  color: #db4b2f; /* Instagram pink */
+  text-decoration: none;
+  margin: 15px;
+  padding: 0 6px;
+  border-radius: 8px;
+  border: 3px solid #db1a5a;
+  transition: 0.3s;
+}
+
+.insta-link i {
+  margin-right: 8px;
+}
+
+.insta-link:hover {
+  background: #5b9711;
+  color: rgb(206, 86, 86);
+}
